@@ -1,0 +1,78 @@
+body{
+    padding: 10%;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    background-image: linear-gradient(to right, orange, blue, red);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tcolor{
+    color: fuchsia;
+    background-color: rgb(195, 215, 231);
+}
+
+.al{
+    width: 300px;
+    text-align: right;
+}
+
+
+.decor{
+   
+    text-decoration: underline overline line-through red;
+}
+
+
+.decor2{
+    text-decoration: dashed underline rgb(54, 252, 5);
+}
+
+
+.decor3{
+    text-decoration: wavy fuchsia underline;
+}
+
+
+.transform{
+    text-transform: uppercase;
+    /* text-transform: capitalize; */ 
+    background-color: bisque;
+}
+
+
+.indent{
+    background-color: hotpink;
+    text-indent: 25px;
+}
+
+
+.letter{
+    letter-spacing: 4px;
+}
+
+
+.word{
+    word-spacing:30px;
+}
+
+
+.direct{
+    direction: rtl;
+    /* right to left - aracpa yazar */
+}
+
+
+.line{
+    background-color: rgb(169, 224, 169);
+    line-height: 2;
+}
+
+
+.shadow{
+    text-shadow: 3px 4px 3px rgb(241, 213, 84);
+}

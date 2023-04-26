@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+p{
+    padding: 10px;
+}
+
+h3{
+    font-variant: small-caps;
+}
+
+.apple{
+    background-color: pink;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    width: 450px
+}
+
+.banana{
+    background-color: yellowgreen;
+    font-family: 'Righteous', cursive;
+    width: 450px;
+}
+
+.carrot{
+    background-color: rgb(255, 154, 39);
+    font-family: 'Dancing Script', cursive;
+    width: 450px
+}
+
+
+
+.strawberry{
+    background-color: rgb(250, 69, 99);
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    width: 450px
+}
+    

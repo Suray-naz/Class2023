@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px; 
+    /* nav bardaki pink arka plan icin padding verildi */
+}
+
+ul{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Rubik Beastly', cursive;
+}
+
+a:hover{
+    background-color: #ff0078;
+}
+
+main{
+    height:500px;
+    background-size: cover;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+}

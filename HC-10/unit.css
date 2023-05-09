@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+
+.abs{
+    background-color: blueviolet;
+    width: 5in;
+}
+
+.div2{
+    background-color: chocolate;
+    width: 500px;
+    height: 40vh;
+}
+
+.div3{
+    background-color: gold;
+    width: 50%;
+    height: 10vh;
+}
+
+.div4{
+    background-color: magenta;
+    width: 75vw;
+    height: 5rem;
+}
+
+.div5{
+    font-size: 25px;
+}
+
+
+.div6{
+    font-size: 2em;
+}
+
+
+.div7{
+    font-size: 0.5em;
+}
+
+
+.div8{
+    font-size: 25px;
+}
+
+
+.div9{
+    font-size: 5rem;
+}
+
+.div10{
+    font-size: 5rem;
+}

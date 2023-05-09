@@ -1,0 +1,41 @@
+.box{
+    border: 5px solid black;
+    margin-bottom: 4rem;
+    width: 20rem;
+    height: 4rem;
+    background-color: bisque;
+}
+
+.box1{
+    overflow: visible;
+}
+
+.box2{
+    overflow: hidden;
+}
+
+
+.box3{
+    overflow: scroll;
+}
+
+
+.box4{
+    overflow: auto;
+    padding: 10px;
+    border-radius: 15px;
+    color: fuchsia;
+    border: 2px solid black;
+}
+
+
+.box5{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.par{
+    width: 50rem;
+}
+
+.box4::-webkit-scrollbar{width:0 !important}

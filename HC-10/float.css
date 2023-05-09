@@ -1,0 +1,41 @@
+img{
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+    /* margin-top: 10px; */
+}
+
+.par1{
+    background-color: greenyellow;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.box{
+    float: left;
+    font-size: 2rem;
+
+}
+
+
+.box1{
+    background-color: aqua;
+    width: 40%;
+    /* height: 7rem; */
+}
+
+
+.box2{
+    background-color: coral;
+    width: 40%;
+}
+
+
+.box3{
+    background-color: rgb(241, 37, 146);
+    width: 20%;
+}
+

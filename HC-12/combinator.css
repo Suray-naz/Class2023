@@ -1,0 +1,130 @@
+/* div p{
+    color: red;
+} */
+
+
+/* .container div p{
+    color: red;
+} */
+
+
+/* p den hemen sonra gelen div */
+p+div{
+    color: rgb(38, 0, 255);        
+}
+
+
+
+/* div den sonra gelen p */
+div+p{
+    background-color: aqua;
+}
+
+
+/* parenti div olan p ler */
+div>p{
+    background-color: rgb(252, 157, 122);
+}
+
+
+
+/* div den sonra gelen span */
+div>span{
+    background-color: greenyellow;
+}
+
+
+p>span{
+    background-color: rgb(78, 230, 72);
+}
+
+
+h2[title=baslik1]{
+    color: red;
+}
+
+
+h2[title=baslik2]{
+    color: blue;
+}
+
+
+p[title=paragraf1]{
+    color: rgb(9, 192, 55);
+}
+
+p[title=paragraf2]{
+    color: deepskyblue;
+}
+
+a[target="_blank"]{
+    font-size: 2rem;
+    text-decoration: none;
+    color: deeppink;
+}
+
+
+p[title="paragraf2"]::first-letter{
+    font-size: 50px;
+    background-color: lightpink;
+}
+
+p[title="paragraf2"]::first-line{
+    font-size: 25px;
+    
+}
+
+
+ul li{
+    background-color: olivedrab;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 10px;
+    
+}
+
+/* 
+ul li::before{
+    
+    
+    font-size: 2rem;
+}
+
+
+ul li::after{
+    
+    font-size: 3rem;
+} */
+
+p+h1{
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 3.5rem;
+    box-sizing: border-box;
+    margin: 3rem;
+}
+
+p+h1:hover{
+    outline: 3px solid rgb(16, 247, 8);
+    cursor: pointer;
+    outline-offset: 3px;
+}
+
+p~h3{
+    border: 3px solid red;
+    width: 20rem;
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    outline: 10px inset rgb(23, 0, 128);
+    outline-offset: 5px;
+    background-color: orange;
+    
+}

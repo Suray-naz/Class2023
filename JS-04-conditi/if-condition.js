@@ -99,7 +99,7 @@ else{
 
 // let distance=+prompt("Please enter the distance")
 // if(distance>=1000){
-//     document.write("Your fee: x 500€:", distance *500)
+//     document.write("Your fee= distance *500€:")
 // }
 // else if(distance>500 && distance<1000){
 //     document.write("Your fee: x 100€:", distance *100)
@@ -116,3 +116,116 @@ else{
 // Switch -case bloğu if-else gibi kullanılacak if-else alternatif bir yöntemdir.
 // Burda bir şart durumunun karşılacağı birden fazla ihtimale göre ortaya çıkabilme ihtimali olan her duruma karşılık bir yapı verilir .
 // Switch de önemli olan şey;  bir şartla karşılaştığı zaman onu uygular ve devam eder işte o noktada çıkmasını istiyoruz ve kod blogunu kırıp çıkmazsak sadece sonuncu değeri yazar
+
+// let product=+prompt("Please enter a product name")
+// let price="0";
+// switch (product){
+    
+//     case "pen":
+//     price="pen 5$";
+//     break;
+
+//     case "notebook 7$":
+//     price="notebook 7$";
+//     break;
+
+//     default: {
+//         console.log("out of stock");
+//     }
+// }
+// console.log(price);
+
+
+
+// ?------------------------------------------------------------------
+let date=new Date().getDay()
+let day;
+
+// 0=Sunday always
+switch (date){
+    case 0:
+        day="Sunday"
+        break;
+    case 1:
+        day="Monday"
+        break;
+    case 2:
+        day="Tuesday"
+        break;
+    case 3:
+        day="Wednesday"
+        break;
+    case 4:
+        day="Thursday"
+        break;
+    case 5:
+        day="Friday"
+        break;
+    case 6:
+        day="Saturday"
+        break;
+}
+console.log(day);
+
+
+//Leveline göre alinacak promosyon miktarini gösteren program
+
+// prof=1000€
+// senior=700€
+// junior=400€
+// default=100€
+
+
+// let level=+prompt("Please enter your level")
+// let promotion="0"
+// switch(promotion){
+//     case "prof":
+//     promotion="1000€";
+//     break;
+
+//     case "senior":
+//     promotion="700€";
+//     break;
+
+//     case "junior":
+//     promotion="400€";
+//     break;
+    
+//     default: {
+//         console.log("100€");
+//     }
+// }
+// console.log(promotion);
+
+// case kisminda birden fazla satirlik islem varsa {} kullanilir
+
+// !-----------------------------------------------------------------
+
+let maas= 1000;
+let kidem = prompt("personelin kidemini giriniz:");
+let promosyon;
+
+switch (kidem) {
+  case "prof": 
+  {
+    promosyon = maas+1000;
+    console.log(promosyon);
+    break;
+  }   
+    
+  case "senior":
+    {
+        promosyon = maas+700;
+        console.log(promosyon);
+        break;
+      } 
+  case "junior":
+     {
+        promosyon = maas+300;
+        console.log(promosyon);
+        break;
+     }
+  default: {
+    console.log("100$");
+  }
+}

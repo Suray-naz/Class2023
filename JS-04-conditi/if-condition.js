@@ -18,7 +18,7 @@ else{
 // let yas=+prompt("yasinizi girin:")
 
 // if (yas > 18) {
-//     // Sartin dogru oldugunda calisacagi kisim
+     // Sartin dogru oldugunda calisacagi kisim
 //     console.log("Oy kullanabilirsin!");
 // }
 // else {
@@ -125,7 +125,7 @@ else{
 //     price="pen 5$";
 //     break;
 
-//     case "notebook 7$":
+//     case "notebook":
 //     price="notebook 7$";
 //     break;
 

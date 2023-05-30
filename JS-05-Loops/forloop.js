@@ -131,3 +131,80 @@ for(let i=2; i<x; i++){
 counter === 0 ? console.log(`${x} is a prime number`): null;
 }
 
+console.clear();
+
+
+// ! ***** WHILE LOOP ******
+
+// For loop ile benzer şekilde sadece syntax farklılığı vardır.Birbirini yerine kullanılabilir
+
+// genelde daha komplex bir şart durumu varsa o zaman kullanmak avantajlı olabilir
+
+// while(Koşul) {
+//      çalıştırılacak kodlar
+//   }
+
+// 1den 10a kadar olan sayilari yazdiran program
+
+let i=0;
+
+while (i<=10){
+    console.log(i);
+    i++
+}
+
+
+
+// ?100 ile 200 arasinda bir sayi girildigi müddetce islem devam ettiren program
+
+// let number=100;
+// while(number>=100 && number<=200){
+//     prompt("Please enter the number btw 100-200:")
+// }
+// console.log("The number must be btw 100.200!");
+
+
+//?Kullanicidan 1-100 arasinda not girmesini isteyen 
+// Farkli bir deger girerse 1-100 arasina not girene kadar zorlayan program
+
+// let not=1;
+// while(not>0 || not>100){
+//     not=+prompt("1 ile 100 arasinda bir not giriniz:")
+//     break;
+// }
+
+
+let x=1;
+while(x<20){
+    console.log(x);
+    x++
+    if(x>8) break;
+}
+
+console.clear();
+
+
+
+// ! ****** DO - WHILE *********
+// kontrol sonda yapıldığı için, en az bir defa işlem gerçekleşir.
+
+// do {
+//      çalıştırılacak kodlar
+//   }
+//   while(Koşul);
+
+
+//? Kullanıcıdan vize ve final notlarını isteyen ve vizenin %40 ını finalin %60 ını alarak 
+//? notunu hesaplayan her işlem bittiğinde devam etmek isteyip istemediğini soran program
+
+let isContinue=""
+let Avg;
+
+do{
+    const vize=+prompt("Vize notunu giriniz:");
+    const final=+prompt("Final notunu giriniz:")
+    Avg=vize*0.4 + final*0.6;  //vize * 40) / 100 + (final * 60) / 100;
+    console.log(Avg);
+    isContinue=prompt("Do you want to continue? (y/Y):")
+
+} while(isContinue==="y" || isContinue==="Y")

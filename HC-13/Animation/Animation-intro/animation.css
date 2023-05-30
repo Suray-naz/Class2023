@@ -1,0 +1,40 @@
+.outher{
+    background-color: brown;
+    width: 500px;
+    height: 500px;
+}
+
+
+.inner{
+    background-color: gray;
+    width: 50%;
+    height: 50%;
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation-name: travel;
+    animation-duration: 2s;
+      /* animasyon tekrar adedi  sayı yada infinite(sonsuz)*/
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-delay: 1s; */
+    animation: travel 2s ease-in-out  infinite alternate ;
+      /* animation direction normal reverse alternate alternate reverse 
+    alternate biter bittiği noktadan geri başlar
+    son kareden başlar ilk gelince geridöner */
+}
+
+@keyframes travel {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(100%);
+        border-radius: 50%;
+    }
+    50%{
+        transform: translate(100%, 100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}

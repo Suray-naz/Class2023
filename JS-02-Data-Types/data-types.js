@@ -289,3 +289,8 @@ console.log(`${hour}:${minute}`);
 //Kullanicinin dogdugu yili alip yas hesaplayan program
 //let birthyear=+prompt("dogum yilinizi giriniz")
 
+
+
+
+
+
